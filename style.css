@@ -1,0 +1,16 @@
+root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-size-base: 16px;
+    --line-height-base: 1.5;
+}
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
